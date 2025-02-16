@@ -9,7 +9,7 @@ public class ArbolGenealogico {
 
     public String insertar(String nombre, String apellido, String fechaNacimiento, String parentezco, Persona padre) {
         Persona nuevaPersona = new Persona(nombre, apellido, fechaNacimiento, parentezco);
-        if (raiz == null) {
+        if (raiz == null) { 
             raiz = nuevaPersona;
             return "Nueva persona agregada como raíz.";
         }
